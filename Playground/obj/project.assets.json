@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "BigO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BigO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BigO.dll": {}
+        }
+      },
+      "SolveCodingProblems/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SolveCodingProblems.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolveCodingProblems.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BigO/1.0.0": {
+      "type": "project",
+      "path": "../BigO/BigO.csproj",
+      "msbuildProject": "../BigO/BigO.csproj"
+    },
+    "SolveCodingProblems/1.0.0": {
+      "type": "project",
+      "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
+      "msbuildProject": "../SolveCodingProblems/SolveCodingProblems.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "BigO >= 1.0.0",
+      "SolveCodingProblems >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/cucox91/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/Playground.csproj",
+      "projectName": "Playground",
+      "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/Playground.csproj",
+      "packagesPath": "/Users/cucox91/.nuget/packages/",
+      "outputPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/cucox91/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/bin/Debug/net9.0/BigO.deps.json
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/bin/Debug/net9.0/BigO.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/bin/Debug/net9.0/BigO.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.AssemblyInfoInputs.cache
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.AssemblyInfo.cs
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.csproj.CoreCompileInputs.cache
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/refint/BigO.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/ref/BigO.dll

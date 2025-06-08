@@ -1,0 +1,11 @@
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/bin/Debug/net9.0/SolveCodingProblems.deps.json
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/bin/Debug/net9.0/SolveCodingProblems.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/bin/Debug/net9.0/SolveCodingProblems.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.AssemblyInfoInputs.cache
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.AssemblyInfo.cs
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.csproj.CoreCompileInputs.cache
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/refint/SolveCodingProblems.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/ref/SolveCodingProblems.dll
