@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveCodingProblems", "SolveCodingProblems\SolveCodingProblems.csproj", "{43049D0D-EF6A-4E41-8B99-FBC8231FD035}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{D503336E-23A1-4A89-9599-C4080D743069}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{43049D0D-EF6A-4E41-8B99-FBC8231FD035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43049D0D-EF6A-4E41-8B99-FBC8231FD035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43049D0D-EF6A-4E41-8B99-FBC8231FD035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D503336E-23A1-4A89-9599-C4080D743069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D503336E-23A1-4A89-9599-C4080D743069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D503336E-23A1-4A89-9599-C4080D743069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D503336E-23A1-4A89-9599-C4080D743069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

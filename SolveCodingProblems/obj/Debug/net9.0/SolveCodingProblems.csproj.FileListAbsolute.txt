@@ -9,3 +9,4 @@
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/refint/SolveCodingProblems.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.pdb
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/ref/SolveCodingProblems.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/obj/Debug/net9.0/SolveCodingProblems.sourcelink.json

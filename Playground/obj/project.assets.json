@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Arrays/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Arrays.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Arrays.dll": {}
+        }
+      },
       "BigO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -25,6 +35,11 @@
     }
   },
   "libraries": {
+    "Arrays/1.0.0": {
+      "type": "project",
+      "path": "../Arrays/Arrays.csproj",
+      "msbuildProject": "../Arrays/Arrays.csproj"
+    },
     "BigO/1.0.0": {
       "type": "project",
       "path": "../BigO/BigO.csproj",
@@ -38,6 +53,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Arrays >= 1.0.0",
       "BigO >= 1.0.0",
       "SolveCodingProblems >= 1.0.0"
     ]
@@ -67,6 +83,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Arrays/Arrays.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Arrays/Arrays.csproj"
+            },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj"
             },

@@ -9,3 +9,4 @@
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/refint/BigO.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.pdb
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/ref/BigO.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/obj/Debug/net9.0/BigO.sourcelink.json

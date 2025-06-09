@@ -18,3 +18,6 @@
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/obj/Debug/net9.0/ref/Playground.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/SolveCodingProblems.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/SolveCodingProblems.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Arrays.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Arrays.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/obj/Debug/net9.0/Playground.sourcelink.json
