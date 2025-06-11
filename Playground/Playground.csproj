@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="../Arrays/Arrays.csproj" />
     <ProjectReference Include="../BigO/BigO.csproj" />
+    <ProjectReference Include="../HashTable/HashTable.csproj" />
     <ProjectReference Include="../SolveCodingProblems/SolveCodingProblems.csproj" />
   </ItemGroup>
 

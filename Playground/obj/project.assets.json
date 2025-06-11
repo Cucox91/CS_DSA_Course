@@ -22,6 +22,16 @@
           "bin/placeholder/BigO.dll": {}
         }
       },
+      "HashTable/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HashTable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HashTable.dll": {}
+        }
+      },
       "SolveCodingProblems/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -45,6 +55,11 @@
       "path": "../BigO/BigO.csproj",
       "msbuildProject": "../BigO/BigO.csproj"
     },
+    "HashTable/1.0.0": {
+      "type": "project",
+      "path": "../HashTable/HashTable.csproj",
+      "msbuildProject": "../HashTable/HashTable.csproj"
+    },
     "SolveCodingProblems/1.0.0": {
       "type": "project",
       "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
@@ -55,6 +70,7 @@
     "net9.0": [
       "Arrays >= 1.0.0",
       "BigO >= 1.0.0",
+      "HashTable >= 1.0.0",
       "SolveCodingProblems >= 1.0.0"
     ]
   },
@@ -88,6 +104,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/BigO/BigO.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/HashTable/HashTable.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/HashTable/HashTable.csproj"
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"

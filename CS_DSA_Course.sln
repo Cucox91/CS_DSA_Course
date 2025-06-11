@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveCodingProblems", "Solv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{D503336E-23A1-4A89-9599-C4080D743069}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{8EEF462A-CC39-44A5-9C50-F9D05D936ECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D503336E-23A1-4A89-9599-C4080D743069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D503336E-23A1-4A89-9599-C4080D743069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D503336E-23A1-4A89-9599-C4080D743069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEF462A-CC39-44A5-9C50-F9D05D936ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEF462A-CC39-44A5-9C50-F9D05D936ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEF462A-CC39-44A5-9C50-F9D05D936ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEF462A-CC39-44A5-9C50-F9D05D936ECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,35 +2,47 @@
 using BigO;
 using SolveCodingProblems;
 using Arrays;
+using HashTable;
+using System.Collections;
 
-// BigOClass.DoSomething();
+// Dictionary<string, int> MyDict = new Dictionary<string, int>();
+// HashSet<string> myhs = new HashSet<string>();
 
-// int[] array = new int[] { 1, 2, 4,4 };
-// int[] array = new int[] { 6, 4, 3, 2, 1, 7 };
-// int sum = 9;
+// MyHashTable<int> myHst = new MyHashTable<int>(2);
 
-// var result = SolveCodingProblems.SolveGoogleInterview.HasPairWithSum2(array, sum, true);
-// var result = SolveCodingProblems.SolveGoogleInterview.HasPairWithSum1(array, sum);
-
-// Console.WriteLine(result);
+// myHst.SetValue("Grapes", 1000);
+// myHst.SetValue("apples", 2000);
 
 
-var myArray = new MyArray<int>(new int[] { 1, 2, 3, 4, 5, 6 }, 6);
+// Console.WriteLine($"For Apples we have: {myHst.GetValue("apples")}");
+// Console.WriteLine($"For Grapes we have: {myHst.GetValue("Grapes")}");
 
-Console.WriteLine(myArray.Get(4));
+// var keys = myHst.Keys();
+// foreach (var item in keys)
+// {
+//     Console.WriteLine(item);
+// }
 
-myArray.Push(7);
-Console.WriteLine(myArray.Get(6));
 
-myArray.Pop();
-myArray.PrintTraverse();
+/* 
+Given an array: Provide the first recurring item.
+Example 1:
+[2,1,1,2,3,5,1,2,4]
+Returns: 2.
+*/
 
-myArray.Delete(0);
-myArray.PrintTraverse();
+// var array = new int[] { 2, 5, 1, 2, 3, 5, 1 };
+// HashSet<int> storage = new HashSet<int>();
 
-myArray.Delete(myArray.Lenght - 1);
-myArray.PrintTraverse();
-
-myArray.Delete(2);
-myArray.PrintTraverse();
-
+// foreach (var item in array)
+// {
+//     if (storage.Contains(item))
+//     {
+//         Console.WriteLine(item);
+//         break;
+//     }
+//     else
+//     {
+//         storage.Add(item);
+//     }
+// }

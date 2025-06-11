@@ -1,0 +1,218 @@
+
+using BigO;
+using SolveCodingProblems;
+using Arrays;
+using System.Collections;
+
+// BigOClass.DoSomething();
+
+// int[] array = new int[] { 1, 2, 4,4 };
+// int[] array = new int[] { 6, 4, 3, 2, 1, 7 };
+// int sum = 9;
+
+// var result = SolveCodingProblems.SolveGoogleInterview.HasPairWithSum2(array, sum, true);
+// var result = SolveCodingProblems.SolveGoogleInterview.HasPairWithSum1(array, sum);
+
+// Console.WriteLine(result);
+
+
+// var myArray = new MyArray<int>(new int[] { 1, 2, 3, 4, 5, 6 }, 6);
+
+// Console.WriteLine(myArray.Get(4));
+
+// myArray.Push(7);
+// Console.WriteLine(myArray.Get(6));
+
+// myArray.Pop();
+// myArray.PrintTraverse();
+
+// myArray.Delete(0);
+// myArray.PrintTraverse();
+
+// myArray.Delete(myArray.Lenght - 1);
+// myArray.PrintTraverse();
+
+// myArray.Delete(2);
+// myArray.PrintTraverse();
+
+// var myString = "123456789";
+// var reversed = ReverseString.Reverse3(myString);
+// Console.WriteLine(reversed);
+
+// var result = MergeSortedArrays.Merge(new int[] { 0, 3, 4, 31 }, new int[] { 4, 6, 30 });
+
+// foreach (var item in result)
+// {
+//     Console.Write(item + " ");
+// }
+
+
+// Hashtable table = new Hashtable();
+// table.Add(1, 1);
+// table.Add(2, 2);
+
+// Console.WriteLine(table[1]);
+// Console.WriteLine(table[4] == null);
+
+// void MoveZeroes(int[] nums)
+// {
+//     int idx = 0;
+//     int[] newNumbs = new int[nums.Length];
+//     for (int i = 0; i < nums.Length; i++)
+//     {
+//         if (nums[i] != 0)
+//         {
+//             newNumbs[idx] = nums[i];
+//             idx++;
+//         }
+//     }
+
+//     newNumbs.CopyTo(nums,0);
+// }
+
+// var myArray = new int[] { 0,1,0,3,12 };
+// MoveZeroes(myArray);
+// foreach (var item in myArray)
+// {
+//     Console.WriteLine(item);
+// }
+
+void PrintArray(ICollection collection)
+{
+    foreach (var item in collection)
+    {
+        Console.Write(item + " ");
+    }
+    Console.WriteLine();
+}
+
+var reminder = 15 % 4;
+Console.WriteLine(reminder);
+
+void Rotate(int[] nums, int k)
+{
+    // We find the reminder of the division because we want to avoid doing full rotations.
+    var modulo = nums.Length % k;
+
+    // If modulo is 0 this meant no extra rotations and will only need to rotate the k value.
+    if (modulo == 0)
+    {
+        modulo = k;
+    }
+
+    //W the reminder this is the only time we need to do rotations. 
+
+    //Lets try the following. We will have two pointers, we are going to use them to split the array and pick the second part and put it in front. (Not efficient is space).
+    var newArray = new int[nums.Length];
+
+    // If odd index then sort this way
+    if (nums.Length % 2 != 0)
+    {
+        for (int i = modulo; i < nums.Length - 1; i++)
+        {
+            newArray[i - modulo] = nums[i + 1];
+        }
+
+        for (int i = 0; i < modulo + 1; i++)
+        {
+            newArray[i + modulo] = nums[i];
+        }
+    }
+    else
+    {
+        for (int i = modulo; i < nums.Length; i++)
+        {
+            newArray[i - modulo] = nums[i];
+        }
+
+        for (int i = 0; i < modulo; i++)
+        {
+            newArray[i + modulo] = nums[i];
+        }
+    }
+    newArray.CopyTo(nums, 0);
+}
+
+
+void Rotate2(int[] nums, int k)
+{
+    var newArray = new int[nums.Length];
+
+    if (k > nums.Length)
+    {
+        var modulo = nums.Length % k;
+        k = k - modulo;
+    }
+
+    var lmk = nums.Length - k;
+
+    if (k % 2 == 0)
+    {
+        for (int i = lmk; i < nums.Length; i++)
+        {
+            newArray[i - lmk] = nums[i];
+        }
+
+        for (int i = 0; i < lmk; i++)
+        {
+            newArray[i + lmk] = nums[i];
+        }
+    }
+    else
+    {
+        for (int i = lmk; i < nums.Length; i++)
+        {
+            newArray[i - lmk] = nums[i];
+        }
+
+        for (int i = 0; i < lmk; i++)
+        {
+            newArray[i + lmk - 1] = nums[i];
+        }
+    }
+    newArray.CopyTo(nums, 0);
+}
+
+void Rotate3(int[] nums, int k)
+{
+    if (nums.Length <= 1 || k < 1)
+    {
+        return;
+    }
+
+    List<int> myList = new List<int>();
+    if (k > nums.Length)
+    {
+        var modulo = nums.Length % k;
+        k = k - modulo;
+    }
+
+    var startK = k % 2 == 0 ? k : k + 1;
+    for (int i = startK; i < nums.Length; i++)
+    {
+        myList.Add(nums[i]);
+    }
+    for (int i = 0; i < startK; i++)
+    {
+        myList.Add(nums[i]);
+    }
+    myList.CopyTo(nums, 0);
+}
+
+var array1 = new int[] { 1, 2, 3, 4, 5, 6, 7 }; //3
+// var array1 = new int[] { 1, 2, 3, 4, 5, 6, 7 }; //3
+var array2 = new int[] { -1, -100, 3, 99 }; //2
+
+var array3 = new int[] { 1, 2 }; //2
+
+
+Rotate3(array1, 3);
+Rotate3(array2, 2);
+Rotate3(array3, 1);
+
+Console.WriteLine("Array 1");
+PrintArray(array1);
+Console.WriteLine("Array 2");
+PrintArray(array2);
+Console.WriteLine("Array 3");
+PrintArray(array3);

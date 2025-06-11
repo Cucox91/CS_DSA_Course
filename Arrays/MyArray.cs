@@ -97,6 +97,7 @@ public class MyArray<T>
         Data = newArray;
         Lenght--;
 
+       
         // if (found)
         // {
         //     Data = newArray;

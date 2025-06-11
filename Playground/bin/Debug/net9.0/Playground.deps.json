@@ -10,6 +10,7 @@
         "dependencies": {
           "Arrays": "1.0.0",
           "BigO": "1.0.0",
+          "HashTable": "1.0.0",
           "SolveCodingProblems": "1.0.0"
         },
         "runtime": {
@@ -27,6 +28,14 @@
       "BigO/1.0.0": {
         "runtime": {
           "BigO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HashTable/1.0.0": {
+        "runtime": {
+          "HashTable.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -54,6 +63,11 @@
       "sha512": ""
     },
     "BigO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HashTable/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
