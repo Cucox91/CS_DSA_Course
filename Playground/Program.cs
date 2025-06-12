@@ -1,48 +1,40 @@
-﻿
-using BigO;
-using SolveCodingProblems;
-using Arrays;
-using HashTable;
-using System.Collections;
+﻿using MyLinkedList;
 
-// Dictionary<string, int> MyDict = new Dictionary<string, int>();
-// HashSet<string> myhs = new HashSet<string>();
+MyLinkedList<int> myll = new MyLinkedList<int>(1);
 
-// MyHashTable<int> myHst = new MyHashTable<int>(2);
+myll.Append(2);
+myll.Append(3);
+myll.Append(4);
+myll.Append(5);
+myll.Append(6);
+myll.Prepend(0);
+myll.Prepend(-1);
 
-// myHst.SetValue("Grapes", 1000);
-// myHst.SetValue("apples", 2000);
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
+Console.WriteLine("Traverse <-");
+myll.TraverseTraverseBackwardFromTail();
 
+myll.Insert(34, 3);
 
-// Console.WriteLine($"For Apples we have: {myHst.GetValue("apples")}");
-// Console.WriteLine($"For Grapes we have: {myHst.GetValue("Grapes")}");
+myll.Insert(67, 20);
 
-// var keys = myHst.Keys();
-// foreach (var item in keys)
-// {
-//     Console.WriteLine(item);
-// }
+myll.Insert(-21, 0);
 
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
+myll.Remove(3);
+myll.Remove(0);
 
-/* 
-Given an array: Provide the first recurring item.
-Example 1:
-[2,1,1,2,3,5,1,2,4]
-Returns: 2.
-*/
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
 
-// var array = new int[] { 2, 5, 1, 2, 3, 5, 1 };
-// HashSet<int> storage = new HashSet<int>();
+myll.Remove(myll.Lenght - 1);
 
-// foreach (var item in array)
-// {
-//     if (storage.Contains(item))
-//     {
-//         Console.WriteLine(item);
-//         break;
-//     }
-//     else
-//     {
-//         storage.Add(item);
-//     }
-// }
+Console.WriteLine("Traverse -> Last one Now");
+myll.TraverseForwardFromHead();
+
+myll.ReverseSingleLinkedList();
+
+Console.WriteLine("Traverse -> After Reverse");
+myll.TraverseForwardFromHead();

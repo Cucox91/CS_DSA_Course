@@ -1,0 +1,48 @@
+
+using BigO;
+using SolveCodingProblems;
+using Arrays;
+using HashTable;
+using System.Collections;
+
+// Dictionary<string, int> MyDict = new Dictionary<string, int>();
+// HashSet<string> myhs = new HashSet<string>();
+
+// MyHashTable<int> myHst = new MyHashTable<int>(2);
+
+// myHst.SetValue("Grapes", 1000);
+// myHst.SetValue("apples", 2000);
+
+
+// Console.WriteLine($"For Apples we have: {myHst.GetValue("apples")}");
+// Console.WriteLine($"For Grapes we have: {myHst.GetValue("Grapes")}");
+
+// var keys = myHst.Keys();
+// foreach (var item in keys)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+/* 
+Given an array: Provide the first recurring item.
+Example 1:
+[2,1,1,2,3,5,1,2,4]
+Returns: 2.
+*/
+
+// var array = new int[] { 2, 5, 1, 2, 3, 5, 1 };
+// HashSet<int> storage = new HashSet<int>();
+
+// foreach (var item in array)
+// {
+//     if (storage.Contains(item))
+//     {
+//         Console.WriteLine(item);
+//         break;
+//     }
+//     else
+//     {
+//         storage.Add(item);
+//     }
+// }

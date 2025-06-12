@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5811aee5996f340ed88c0a96885c2af1a0de4ff4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f163e3732acc8d8b53e6e64702580914194089")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

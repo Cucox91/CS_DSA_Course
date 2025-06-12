@@ -32,6 +32,16 @@
           "bin/placeholder/HashTable.dll": {}
         }
       },
+      "MyLinkedList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MyLinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyLinkedList.dll": {}
+        }
+      },
       "SolveCodingProblems/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -60,6 +70,11 @@
       "path": "../HashTable/HashTable.csproj",
       "msbuildProject": "../HashTable/HashTable.csproj"
     },
+    "MyLinkedList/1.0.0": {
+      "type": "project",
+      "path": "../MyLinkedList/MyLinkedList.csproj",
+      "msbuildProject": "../MyLinkedList/MyLinkedList.csproj"
+    },
     "SolveCodingProblems/1.0.0": {
       "type": "project",
       "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
@@ -71,6 +86,7 @@
       "Arrays >= 1.0.0",
       "BigO >= 1.0.0",
       "HashTable >= 1.0.0",
+      "MyLinkedList >= 1.0.0",
       "SolveCodingProblems >= 1.0.0"
     ]
   },
@@ -107,6 +123,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/HashTable/HashTable.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/HashTable/HashTable.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj"
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
