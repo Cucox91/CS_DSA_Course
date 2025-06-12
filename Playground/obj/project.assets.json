@@ -51,6 +51,16 @@
         "runtime": {
           "bin/placeholder/SolveCodingProblems.dll": {}
         }
+      },
+      "StackAndQueues/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/StackAndQueues.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StackAndQueues.dll": {}
+        }
       }
     }
   },
@@ -79,6 +89,11 @@
       "type": "project",
       "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
       "msbuildProject": "../SolveCodingProblems/SolveCodingProblems.csproj"
+    },
+    "StackAndQueues/1.0.0": {
+      "type": "project",
+      "path": "../StackAndQueues/StackAndQueues.csproj",
+      "msbuildProject": "../StackAndQueues/StackAndQueues.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -87,7 +102,8 @@
       "BigO >= 1.0.0",
       "HashTable >= 1.0.0",
       "MyLinkedList >= 1.0.0",
-      "SolveCodingProblems >= 1.0.0"
+      "SolveCodingProblems >= 1.0.0",
+      "StackAndQueues >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -129,6 +145,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj"
             }
           }
         }

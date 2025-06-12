@@ -1,0 +1,40 @@
+using MyLinkedList;
+
+MyLinkedList<int> myll = new MyLinkedList<int>(1);
+
+myll.Append(2);
+myll.Append(3);
+myll.Append(4);
+myll.Append(5);
+myll.Append(6);
+myll.Prepend(0);
+myll.Prepend(-1);
+
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
+Console.WriteLine("Traverse <-");
+myll.TraverseTraverseBackwardFromTail();
+
+myll.Insert(34, 3);
+
+myll.Insert(67, 20);
+
+myll.Insert(-21, 0);
+
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
+myll.Remove(3);
+myll.Remove(0);
+
+Console.WriteLine("Traverse ->");
+myll.TraverseForwardFromHead();
+
+myll.Remove(myll.Lenght - 1);
+
+Console.WriteLine("Traverse -> Last one Now");
+myll.TraverseForwardFromHead();
+
+myll.ReverseSingleLinkedList();
+
+Console.WriteLine("Traverse -> After Reverse");
+myll.TraverseForwardFromHead();

@@ -25,3 +25,5 @@
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/HashTable.pdb
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/MyLinkedList.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/MyLinkedList.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/StackAndQueues.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/StackAndQueues.pdb
