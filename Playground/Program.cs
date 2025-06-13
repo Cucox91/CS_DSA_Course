@@ -1,47 +1,17 @@
 ﻿using StackAndQueues;
 
-// MyStack<int?> myStack = new MyStack<int?>(10);
-// Console.WriteLine($"My Empty Stack Peek: {myStack.Peek()}");
-// Console.WriteLine($"My Empty Stack Pop: {myStack.Pop()}");
+MySSQueue ssq = new MySSQueue();
+ssq.Push(1);
+ssq.Push(2);
+ssq.Push(3);
+ssq.Push(4);
+Console.WriteLine(ssq.Pop());
+ssq.Push(5);
+Console.WriteLine(ssq.Pop());
+Console.WriteLine(ssq.Pop());
+Console.WriteLine(ssq.Pop());
+Console.WriteLine(ssq.Pop());
 
-// myStack.Push(1);
-// myStack.Push(2);
-// myStack.Push(3);
-// myStack.Push(4);
-// myStack.Push(5);
+// Console.WriteLine(ssq.Peek());
 
-// Console.WriteLine($"My Stack Peek: {myStack.Peek()}");
-// Console.WriteLine($"My Stack Pop: {myStack.Pop()}");
-// Console.WriteLine($"My Stack Peek: {myStack.Peek()}");
-
-// var myDynamicStack = new MyDynamicStack<int>(1);
-
-//// For Dynamic
-
-// myDynamicStack.Traverse();
-
-// Console.WriteLine("Current Last: " + myDynamicStack.Peek());
-// Console.WriteLine("Current Last Pop: " + myDynamicStack.Pop());
-// Console.WriteLine("Current Last : " + myDynamicStack.Peek());
-
-
-var myQueue = new MyQueue<int?>(1);
-
-myQueue.Enqueue(2);
-myQueue.Enqueue(3);
-myQueue.Enqueue(4);
-myQueue.Enqueue(5);
-myQueue.Enqueue(6);
-
-myQueue.Traverse();
-
-Console.WriteLine("Next in Line: " + myQueue.PeekNext());
-Console.WriteLine("Last in Line: " + myQueue.PeekLast());
-var current = myQueue.PeekNext();
-while (current != null)
-{
-    current = myQueue.Dequeue();
-    Console.Write(current + " ");
-}
-
-Console.WriteLine();
+// Console.WriteLine(ssq.Empty());
