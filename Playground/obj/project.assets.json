@@ -61,6 +61,16 @@
         "runtime": {
           "bin/placeholder/StackAndQueues.dll": {}
         }
+      },
+      "Trees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Trees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Trees.dll": {}
+        }
       }
     }
   },
@@ -94,6 +104,11 @@
       "type": "project",
       "path": "../StackAndQueues/StackAndQueues.csproj",
       "msbuildProject": "../StackAndQueues/StackAndQueues.csproj"
+    },
+    "Trees/1.0.0": {
+      "type": "project",
+      "path": "../Trees/Trees.csproj",
+      "msbuildProject": "../Trees/Trees.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -103,7 +118,8 @@
       "HashTable >= 1.0.0",
       "MyLinkedList >= 1.0.0",
       "SolveCodingProblems >= 1.0.0",
-      "StackAndQueues >= 1.0.0"
+      "StackAndQueues >= 1.0.0",
+      "Trees >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -148,6 +164,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Trees/Trees.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Trees/Trees.csproj"
             }
           }
         }

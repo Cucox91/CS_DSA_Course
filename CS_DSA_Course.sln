@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinkedList", "MyLinkedLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueues", "StackAndQueues\StackAndQueues.csproj", "{92427CD7-C66A-4B07-AFB4-9DA995CD294C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{9B74C08E-E658-4B71-8199-A000DCF5B157}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{92427CD7-C66A-4B07-AFB4-9DA995CD294C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92427CD7-C66A-4B07-AFB4-9DA995CD294C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92427CD7-C66A-4B07-AFB4-9DA995CD294C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B74C08E-E658-4B71-8199-A000DCF5B157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B74C08E-E658-4B71-8199-A000DCF5B157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B74C08E-E658-4B71-8199-A000DCF5B157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B74C08E-E658-4B71-8199-A000DCF5B157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
