@@ -33,3 +33,5 @@
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Graphs.pdb
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Recursion.dll
 /Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Recursion.pdb
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Sorting.dll
+/Users/cucox91/Repos/CSDev/CS_DSA_Course/Playground/bin/Debug/net9.0/Sorting.pdb

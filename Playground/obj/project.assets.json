@@ -72,6 +72,16 @@
           "bin/placeholder/SolveCodingProblems.dll": {}
         }
       },
+      "Sorting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Sorting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sorting.dll": {}
+        }
+      },
       "StackAndQueues/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -130,6 +140,11 @@
       "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
       "msbuildProject": "../SolveCodingProblems/SolveCodingProblems.csproj"
     },
+    "Sorting/1.0.0": {
+      "type": "project",
+      "path": "../Sorting/Sorting.csproj",
+      "msbuildProject": "../Sorting/Sorting.csproj"
+    },
     "StackAndQueues/1.0.0": {
       "type": "project",
       "path": "../StackAndQueues/StackAndQueues.csproj",
@@ -150,6 +165,7 @@
       "MyLinkedList >= 1.0.0",
       "Recursion >= 1.0.0",
       "SolveCodingProblems >= 1.0.0",
+      "Sorting >= 1.0.0",
       "StackAndQueues >= 1.0.0",
       "Trees >= 1.0.0"
     ]
@@ -199,6 +215,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Sorting/Sorting.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Sorting/Sorting.csproj"
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/StackAndQueues/StackAndQueues.csproj"
