@@ -336,6 +336,9 @@
               "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj": {
                 "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj"
               },
+              "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj": {
+                "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj"
+              },
               "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
                 "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
               },
@@ -346,6 +349,65 @@
                 "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Trees/Trees.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj",
+        "projectName": "Recursion",
+        "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj",
+        "packagesPath": "/Users/cucox91/.nuget/packages/",
+        "outputPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cucox91/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

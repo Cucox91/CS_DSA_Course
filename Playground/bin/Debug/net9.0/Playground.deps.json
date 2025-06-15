@@ -13,6 +13,7 @@
           "Graphs": "1.0.0",
           "HashTable": "1.0.0",
           "MyLinkedList": "1.0.0",
+          "Recursion": "1.0.0",
           "SolveCodingProblems": "1.0.0",
           "StackAndQueues": "1.0.0",
           "Trees": "1.0.0"
@@ -56,6 +57,14 @@
       "MyLinkedList/1.0.0": {
         "runtime": {
           "MyLinkedList.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Recursion/1.0.0": {
+        "runtime": {
+          "Recursion.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -114,6 +123,11 @@
       "sha512": ""
     },
     "MyLinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Recursion/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

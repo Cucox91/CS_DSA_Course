@@ -1,0 +1,66 @@
+long FactorialRecursive(long n) // O(n)
+{
+    if (n == 1)
+    {
+        return 1;
+    }
+    return n * FactorialRecursive(n - 1);
+}
+
+long FactorialIterative(long n) // O(n)
+{
+    long result = 1;
+    for (long i = n; i > 0; i--)
+    {
+        result = result * i;
+    }
+
+    return result;
+}
+
+// for (int i = 1; i < 10; i++)
+// {
+//     Console.WriteLine($"Factorial Recursive of {i} = {FactorialRecursive(i)}");
+//     Console.WriteLine($"Factorial Iterative of {i} = {FactorialIterative(i)}");
+// }
+
+string FibonacciIterative(int n) // O(n)
+{
+    int i = 0;
+    int j = 1;
+    string valuesString = $"{i} {j} ";
+    while (n >= 0)
+    {
+        int newVal = i + j;
+        i = j;
+        j = newVal;
+        valuesString += j + " ";
+        n--;
+    }
+    return valuesString;
+}
+
+int FibonacciRecursive(int n) // O(2^n)
+{
+    if (n < 2)
+    {
+        return n;
+    }
+    return FibonacciRecursive(n - 1) + FibonacciRecursive(n - 2);
+}
+
+Console.WriteLine($"Fibonacci Iterative of {10} = {FibonacciIterative(10)}");
+Console.WriteLine($"Fibonacci Recursive of {10} = {FibonacciRecursive(10)}");
+
+string ReverseString(string myString, int index)
+{
+    if (index == 0)
+    {
+        return myString[index].ToString();
+    }
+    index--;
+    return myString[index + 1] + ReverseString(myString, index);
+}
+
+var original = "Hello World!";
+Console.WriteLine(ReverseString(original, original.Length - 1));

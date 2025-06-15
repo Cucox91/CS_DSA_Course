@@ -52,6 +52,16 @@
           "bin/placeholder/MyLinkedList.dll": {}
         }
       },
+      "Recursion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Recursion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Recursion.dll": {}
+        }
+      },
       "SolveCodingProblems/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -110,6 +120,11 @@
       "path": "../MyLinkedList/MyLinkedList.csproj",
       "msbuildProject": "../MyLinkedList/MyLinkedList.csproj"
     },
+    "Recursion/1.0.0": {
+      "type": "project",
+      "path": "../Recursion/Recursion.csproj",
+      "msbuildProject": "../Recursion/Recursion.csproj"
+    },
     "SolveCodingProblems/1.0.0": {
       "type": "project",
       "path": "../SolveCodingProblems/SolveCodingProblems.csproj",
@@ -133,6 +148,7 @@
       "Graphs >= 1.0.0",
       "HashTable >= 1.0.0",
       "MyLinkedList >= 1.0.0",
+      "Recursion >= 1.0.0",
       "SolveCodingProblems >= 1.0.0",
       "StackAndQueues >= 1.0.0",
       "Trees >= 1.0.0"
@@ -177,6 +193,9 @@
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/MyLinkedList/MyLinkedList.csproj"
+            },
+            "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj": {
+              "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/Recursion/Recursion.csproj"
             },
             "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj": {
               "projectPath": "/Users/cucox91/Repos/CSDev/CS_DSA_Course/SolveCodingProblems/SolveCodingProblems.csproj"
